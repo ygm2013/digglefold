@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    height: 100px;
+    background: #3a533b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #f0f7f0;
+    display: inline-block;
+}
+
+li a::after {
+	content:'';
+	display:block;
+	height: 4px;
+	width:0;
+	background:goldenrod;
+    transition: all 2s;
+}
+
+li a:hover::after{
+    width:100%;
+}
+
+.main-content {
+    display:flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+    background:#eaecce;
+}
+
+.hero-img{
+	max-width:670px;
+	height:auto;
+}
+.content-left{
+	width:30%;
+    margin-right:20px;
+}
+
+.content-right{
+    margin-left:20px;
+}
+
+main h1{
+	
+	color:#043535;
+	text-transform:uppercase;
+}
+
+main h2{
+	
+	color:#fca70c;
+	font-weight:400;
+	text-transform:uppercase;
+	letter-spacing: 8px;
+}
+
+main p{
+	font-size:14px;
+	font-weight:400;
+	color:#333;
+	line-height:31.5px;
+	margin: 30px 0;
+}
+
+.cta{
+	padding: 15px 30px;
+	background: #235f30;
+	color: #fff;
+	outline: none;
+	border: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius:50px;
+}
+
+.logo a{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+.logo:hover{
+    
+    font-size: 1.2em;
+    transition: 3s;
+}
+
+footer a{
+    text-decoration: none;
+    color:#fff;
+}
+
+footer {
+    display:flex;
+    justify-content:center;
+
+    font-size:14px;
+	font-weight:400;
+	color:#fff;
+	padding: 15px 0;
+    background:#668b67;
+}
+.mission-statement{
+    display: flex;
+    justify-content:center;
+   /*  align-items: center;
+    height: 90vh; */
+}
+.left-content{
+	width:35%;
+}
+.right-content{
+	width:35%;
+}
