@@ -9,6 +9,9 @@ body{
 }
 
 header{
+    position:fixed;
+    top: 0;
+    width: 100%;
     height: 100px;
     background: #3a533b;
     display: flex;
@@ -16,19 +19,19 @@ header{
     align-items: center;
 }
 
-ul{
+header ul{
     display: flex;
     align-items: center;
 }
 
-ul li a {
+header ul li a {
     padding: 0 20px;
     text-decoration: none;
     color: #f0f7f0;
     display: inline-block;
 }
 
-li a::after {
+header li a::after {
 	content:'';
 	display:block;
 	height: 4px;
@@ -37,13 +40,13 @@ li a::after {
     transition: all 2s;
 }
 
-li a:hover::after{
+header li a:hover::after{
     width:100%;
 }
 
 .main-content {
     display:flex;
-    height: calc(100vh - 100px);
+    height: 100vh;
     align-items: center;
     justify-content: center;
     background:#eaecce;
@@ -77,22 +80,36 @@ main h2{
 }
 
 main p{
-	font-size:14px;
+	font-size:15px;
 	font-weight:400;
 	color:#333;
 	line-height:31.5px;
 	margin: 30px 0;
 }
 
-.cta{
-	padding: 15px 30px;
+/* buttons */
+.btn-green{
+    padding: 15px 30px;
 	background: #235f30;
 	color: #fff;
 	outline: none;
 	border: none;
 	font-weight: 700;
 	text-transform: uppercase;
-	border-radius:50px;
+	border-radius:50px;  
+}
+
+.btn-green:hover{
+    padding: 15px 30px;
+	background: #76c34c;
+	color: #fff;
+	outline: none;
+	border: none;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius:50px;  
+    cursor:pointer;
+    transition:2s;
 }
 
 .logo a{
@@ -122,14 +139,46 @@ footer {
     background:#668b67;
 }
 .mission-statement{
+    padding-top:20px;
     display: flex;
     justify-content:center;
-   /*  align-items: center;
-    height: 90vh; */
+    align-items:normal;
 }
 .left-content{
 	width:35%;
+    margin-right:20px;
 }
 .right-content{
 	width:35%;
+    margin-left:20px;
 }
+.left-content h2{
+    color:#1f5e21;
+}
+.left-content h2{
+    text-align:start;
+}
+.right-content h3{
+    color:#fac131;
+}
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+#contact-us{
+    background:#eaecce;
+}
+.cnt-para{
+    width:35%;
+}
+.cnt-header {
+    width:35%;
+}
+
+.cente-text{
+    text-align: center;
+}
+
