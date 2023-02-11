@@ -15,8 +15,9 @@ header{
     /* position:fixed;
     top: 0;
     width: 100%; */
-    height: 100px;
+    height: 90px;
     background: #3a533b;
+    /* background:#eaecce; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,7 +31,9 @@ header ul{
 header ul li a {
     padding: 0 20px;
     text-decoration: none;
-    color: #f0f7f0;
+    color: #eaecce;
+    /* color: #3a533b; */
+    font-weight: 500;
     display: inline-block;
 }
 
@@ -177,10 +180,12 @@ footer {
     background:#eaecce;
 }
 .cnt-para{
-    width:35%;
+    width:30%;
+    margin-left: 20px;
 }
 .cnt-header {
-    width:35%;
+    width:40%;
+    margin-right: 20px; 
 }
 
 .cente-text{
@@ -197,8 +202,11 @@ header ul li a.icon {
     line-height: 1.2rem;
 }
 .goodle-map iframe {
-    height: 100%;
-     width: 100%;
+    width: 100%;
+    
+}
+.goodle {
+    margin-top: 20px 0;
 }
 
 input[type=text], input[type=email], input[type=textarea] {
@@ -216,9 +224,23 @@ textarea{
     resize: none;
     border-radius: 5px;
 }
-button{
-    padding: 15px 20px;
-    border-radius: 5px;
-    background:#668b67
-    outline-color: none;
+
+address {
+    padding: 20px 0;
+}
+
+/* photo gallery */
+.gallery-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    background:#eaecce;
+}
+.image{
+    width:25%;
+}
+img{
+    width:100%;
+    height: 100%;
 }
