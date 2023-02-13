@@ -1,4 +1,5 @@
 /* 11 Feb 2023 YGangire */
+/* routine to get photos on the file system and display them in the gallery*/
 
 const galleryDiv = document.getElementById("galleryId")
 
