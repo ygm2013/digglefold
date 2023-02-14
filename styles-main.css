@@ -170,15 +170,20 @@ footer {
 .right-content h3{
     color:#fac131;
 }
+.about-us{
+    background: linear-gradient(20deg, #eaecce, white, ivory, #a89f9f);
+}
 .contact-div{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     /* height: 50vh; */
+    
 }
 #contact-us{
-    background:#eaecce;
+    /* background:#eaecce; */
+    background: linear-gradient(20deg, #eaecce, white, ivory, #a89f9f);
 }
 .cnt-para{
     width:30%;
@@ -236,7 +241,11 @@ address {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-    background:#eaecce;
+    /* background:#eaecce; */
+    
+}
+#gallery{
+    background: linear-gradient(20deg, #eaecce, white, ivory, #a89f9f);
 }
 .image{
     width:25%;
