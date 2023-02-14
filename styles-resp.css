@@ -1,0 +1,56 @@
+@media (max-width: 720px) {
+    /* home 'page'*/
+    .main-content {
+        flex-direction:column-reverse;
+        justify-content: start;
+        align-items: start;
+        /* height: 90vh; */
+    }
+    .hero-img{
+        max-width:100%;
+        height:auto;
+    }
+    .content-left{
+        width:100%;
+        padding:5px;
+    }
+    .content-left h1, h2, h3{
+        text-align: center;
+    }
+    .content-right{
+        margin:1px;
+    }
+    main p{
+        margin: 30px 10px;
+    }
+    /* menu icon */
+    header ul li a {display: none;}
+    header ul li a.icon {
+      float: right;
+      display: block;
+    }
+    /* about us section */
+    .mission-statement{
+        flex-direction: column-reverse;
+        justify-content:center;
+        align-items:normal;
+    }
+    .left-content{
+        width:100%;
+        margin:10px;
+    }
+    .right-content{
+        width:100%;
+        margin:10px;
+    }
+    /* contact us section */
+    .contact-div{
+        flex-direction: column-reverse;
+        justify-content:center;
+        align-items:normal;
+    }
+}
+
+
+  
+  
