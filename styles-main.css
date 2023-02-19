@@ -7,29 +7,31 @@
 }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
- 
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header{
-    /* position:fixed;
-    top: 0;
-    width: 100%; */
-    height: 90px;
+nav{
+
+    min-height: 90px;
     background: #3a533b;
     /* background:#eaecce; */
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     align-items: center;
+    padding: 0 35px;
+
 }
 
-header ul{
+nav ul{
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
-header ul li a {
-    padding: 0 20px;
+nav ul li a {
+    /* padding: 0 20px; */
+    
     text-decoration: none;
     color: #eaecce;
     /* color: #3a533b; */
@@ -37,7 +39,7 @@ header ul li a {
     display: inline-block;
 }
 
-header li a::after {
+nav li a::after {
 	content:'';
 	display:block;
 	height: 4px;
@@ -46,7 +48,7 @@ header li a::after {
     transition: all 2s;
 }
 
-header li a:hover::after{
+nav li a:hover::after{
     width:100%;
 }
 
@@ -120,7 +122,7 @@ main p{
     transition:2s;
 }
 
-.logo a{
+.logo{
     color: goldenrod;
     text-decoration: none;
 }
@@ -200,7 +202,7 @@ footer {
 
 /* hide humburg menu icon */
 
-header ul li a.icon {
+.humburg {
     display: none;
 }
 
@@ -255,3 +257,18 @@ img{
     height: 100%;
     border-radius: 5px;
 }
+.card{
+    border: 1px solid gray;
+    box-shadow: 1px;
+}
+
+.humburg div{
+    width: 35px;
+    height: 3px;
+    margin: 4px;
+    background-color: white;
+}
+
+/* .humburg div{
+    display: none;
+} */
