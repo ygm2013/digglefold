@@ -17,3 +17,14 @@ for (let i=1; i< 10; i++){
 
     imgDiv.classList.add("image"); /* add the image for styline the gallery image */
 }
+
+
+/* mobile view navigate activation */
+
+const hmbgIcon = document.querySelector(".humburg");
+const navLinks = document.querySelector(".nav-links");
+
+hmbgIcon.addEventListener("click",()=> {
+    console.log(hmbgIcon);
+    navLinks.classList.toggle("nav-active");
+})
