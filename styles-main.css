@@ -255,3 +255,13 @@ img{
     height: 100%;
     border-radius: 5px;
 }
+
+.card{
+    border: 1px solid #d3d1d1;
+    padding: 15px 15px 15px 30px;
+    margin-top: 10px;
+    box-shadow: 0 1px 1px #b0afaf;
+    border-radius: 5px;
+    /* background: whitesmoke; */
+    opacity: 75%;
+}
