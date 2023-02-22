@@ -272,10 +272,10 @@ img{
     border: 1px solid #d3d1d1;
     padding: 15px 15px 15px 30px;
     margin-top: 10px;
-    box-shadow: 0 1px 1px #b0afaf;
+    box-shadow: 2px 4px 5px #b0afaf;
     border-radius: 5px;
-    /* background: whitesmoke; */
-    opacity: 75%;
+    /* background: white;  */
+    /*  opacity: 75%; */
 }
 
 
@@ -289,3 +289,17 @@ img{
 /* .humburg div{
     display: none;
 } */
+
+.vision-moto-values{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.abt-card{
+    width:25%;
+}
+.right-content ol{
+    line-height: 34px;
+}
