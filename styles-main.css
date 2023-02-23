@@ -9,7 +9,7 @@
     --grn-clr-light-btn: #76c34c;
     --green-primary:hsl(99, 73%, 26%);
     --bg-clr-sctions: linear-gradient(20deg, #eaecce, white, ivory, #a89f9f);
-    --bg-clr-sections:  #eaecce;
+    /* --bg-clr-sections:  #eaecce; */
 }
 *{
     margin:0;
@@ -184,7 +184,8 @@ footer {
     color:var(--gld-clr-main);
 }
 .about-us{
-    background: var(--bg-clr-sctions);
+    background: white;
+    /* background: var(--bg-clr-sctions); */
 }
 .contact-div{
     display: flex;
@@ -276,7 +277,8 @@ img{
     margin-top: 10px;
     box-shadow: 3px 4px 5px #b0afaf;
     border-radius: 5px;
-    background: white; 
+    /* background: white;  */
+    background: var(--bg-clr-sctions);
     /*  opacity: 75%; */
     transition: .3s ease-out;
 }
