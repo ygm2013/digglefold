@@ -187,6 +187,7 @@ footer {
     color:var(--gld-clr-main);
 }
 .about-us{
+    margin-top: -30px;
     padding-top: 90px;
     background: white;
     /* background: var(--bg-clr-sctions); */
@@ -289,7 +290,7 @@ img{
 
 .card:hover{
     box-shadow: 8px 5px 7px #b0afaf;
-    opacity: 55%; 
+    opacity: 80%; 
     cursor: pointer;
 }
 
@@ -310,13 +311,17 @@ img{
     gap: 10px;
     align-items: center;
     /* border: 1px goldenrod solid; */
-    margin: 0 13vw;
+    margin: 0 12vw;
 }
 .vision-moto-values h3 {
     text-transform: uppercase;
     color: var(--grn-clr-light-btn);
     text-align: center;
     text-shadow: var(--gld-clr-main) 5px;
+}
+hr{
+    background: var(--gld-clr-main);
+    height: 0.5px;
 }
 .abt-card{
     width:32%;
